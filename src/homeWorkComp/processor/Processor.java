@@ -45,4 +45,14 @@ public class Processor {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    @Override
+    public String toString() {
+        return "Processor{" +
+                "frequency=" + frequency +
+                ", coreCount=" + coreCount +
+                ", creator=" + creator +
+                ", weight=" + weight +
+                '}';
+    }
 }
